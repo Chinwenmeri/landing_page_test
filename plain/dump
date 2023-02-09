@@ -1,0 +1,45 @@
+#mainContent {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    height: 550px;
+    position: relative;
+    top: 60px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(132, 108, 178);
+}
+
+#headSect>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    bottom: 20px;
+}
+
+#listValue>li {
+    padding: 0;
+    margin: 20px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', monospace;
+    font-weight: bold;
+}
+
+#logoName {
+    font-size: large;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: 10px;
+}
+
+#listValue>li>a :hover {
+    border: 1px white rgb(136, 123, 157);
+    border-radius: 5px;
+}
